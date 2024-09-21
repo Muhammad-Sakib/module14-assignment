@@ -42,7 +42,7 @@ class _CreateProductScreenState extends State<CreateProductScreen> {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text('Product added successfully')),
         );
-        Navigator.pop(context); // Close the form after success
+        Navigator.pop(context);
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text('Failed to add product')),
